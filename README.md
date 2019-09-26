@@ -1,0 +1,2 @@
+# Team-Thor
+These are the working files of the Goal Tracker App which is live on https://incredibleteamthor.000webhostapp.com/ . You are to make changes according to whichever page was allocated to you by @Young-Einstein10. Our objective is to make this site look responsive and similar to the design given. Beware while changing things not to break the PHP codes as they are already functional, try as much as possible not to break anything.
