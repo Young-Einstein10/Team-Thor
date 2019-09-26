@@ -2,10 +2,12 @@ body {
   background-image: url('../vector.png');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  font-family: 'Cormorant Garamond', serif;
   
 }
 
-header {
+nav {
   height: 60px;
   background-color: #ebe5e5;
 }
@@ -19,10 +21,10 @@ section {
   margin-top: 150px;
 }
 
-p.logo {
+a.logo {
   margin-left: 15px;
   padding-left: 50px;
-  color: #aa3511;
+  color: #aa3511 !important;
 }
 
 div.content {
@@ -30,23 +32,60 @@ div.content {
 }
 
 div.content .content-bold {
-  font-size: 25px;
+  font-size: 40px;
   color: #a83c1b;
+  font-weight: bold;
 }
 
 div.content .content-light {
-  font-size: 18px;
-  text-decoration: italic;
+  font-size: 30px;
+  font-style: italic;
   color: #a83c1b;
 }
 
-.nav .nav-item a {
-  color: #a83c1b;
+.nav-item a {
+  color: #a83c1b !important;
 }
 
 .btn {
   padding: 10px 20px;
-  background: #a8948e;
+  background: #A8948E;
   color: #ffffff;
   border-radius: 0;
+  font-weight: bold;
 }
+
+/* Small devices (landscape phones, less than 576px)*/
+@media (max-width: 576px) {
+.content-bold{
+  font-size: 14px !important;
+}
+.content-light{
+font-size: 12px !important;
+align-content: center !important
+}
+.btn{
+width: 200px;
+font-size: 12px;
+padding: 3px !important;
+margin: 2px !important;
+}
+} 
+
+/* Medium devices (tablets, less than 768px)*/
+@media (max-width: 768px) { 
+
+.content-bold{
+    font-size: 23px !important;
+}
+.content-light{
+ font-size: 20px !important;
+}
+.btn{
+ width: 200px;
+ font-size: 17px;
+ padding: 3px !important;
+ margin: 2px !important;
+}
+}
+ }
